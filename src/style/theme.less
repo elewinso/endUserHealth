@@ -1,0 +1,69 @@
+@header-color: red;
+@footer-color: green;
+@panel-background: blue;
+
+.header {
+	background: @header-color;	
+}
+
+.header img.logo {
+	/* to center in view */
+	display: block;
+	margin: 0 auto;
+	height: 55px;
+}
+
+.mce-panel{
+	background-color: @panel-background;
+}
+
+.footer {
+	padding: 0px;
+}
+
+.footer .mce-logo{
+	height: 30px;
+}
+
+.wrap{
+	background: white;
+}
+
+.side-menu {
+padding: 30px 70px;
+background: inherit;
+}
+
+.side-menu a.accordion-toggle{
+	color: white;
+}
+
+.side-menu a.accordion-toggle .accordion-group-icon,
+.side-menu a.accordion-toggle .accordion-group-text{
+	display:inline-block;
+}	
+
+.side-menu a.accordion-toggle .accordion-group-icon{
+	width: 30px;
+	height: 35px;
+	background-image: url("../img/Toggle_arrow.svg");
+	background-repeat:no-repeat;
+	position: relative;
+	-webkit-transform: rotate(90deg);
+	top: -25px;
+}
+
+.side-menu a.accordion-toggle.collapsed .accordion-group-icon{
+	-webkit-transform: rotate(0deg);
+}
+
+.accordion-toggle {
+	background: #009C9C;
+}
+.accordion-toggle.collapsed {
+	background: #747474;
+}
+
+.accordion-inner li {
+	border-bottom: none;
+}

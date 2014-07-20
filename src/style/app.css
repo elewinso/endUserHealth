@@ -1,0 +1,465 @@
+/**
+ * 	make bootstrap stretch to the whole screen (no margins)
+ */
+html, body {
+	height: 100%;
+}
+
+.container{
+	max-width:none;
+}
+
+.wrap{
+	min-height: 100%;
+	height: auto !important;
+	margin: 0 auto -30px;	
+	background: #ededed;
+}
+
+.footer {
+	background: #444444;
+	padding: 5px;
+	min-height: 30px;
+}
+
+.footer img.logo {
+	display: inline-block;
+}
+
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+/* app css stylesheet */
+img.model-big-image {
+	/* to center in view */
+	display: block;
+	margin: 30px auto;
+	height: 370px;  /* model images have a constant height not width :-( */
+}
+
+a.btn.launchNpp {
+	float: right;
+	text-transform: uppercase;
+	color: white;
+	margin-left: 26px;
+}
+
+.btn-success:hover {
+	background: #f89c00;
+}
+
+.btn-success:active {
+	background: #f29c00;
+}
+
+.mce-panel {
+	border-right: 1px solid #c4c4c4;
+	border-bottom: 1px solid #c4c4c4;
+	background: #FAFAFA;
+	padding: 0px;
+}
+
+.tool-icon {
+	margin-right: 9px;
+}
+
+ul.tool-list {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* app theme */
+.header {
+	background: #444444;
+}
+
+.header img.logo {
+	/* to center in view */
+	display: block;
+	margin: 0 auto;
+	margin-top: 11px;	
+}
+
+.header .more-options {
+	color: white;
+	font-size: 20px;
+	float: right;
+}
+
+.side-menu {
+	padding: 0px;
+	background: #ededed;
+}
+
+.accordion-group {
+	border-radius: 0px;
+}
+
+.accordion-heading {
+	border-bottom: 2px solid #c4c4c4;
+}
+.accordion-heading:hover {
+	background: white;
+}
+
+.accordion-heading .glyphicon-chevron-down {
+	float: right;
+}
+
+.accordion-inner {
+	padding: 0px;
+}
+
+.accordion-inner li {
+	padding: 12px 10px;
+	border-bottom: 1px solid #c4c4c4;
+}
+
+.accordion-inner li:hover {
+	background: white;
+}
+
+.accordion-inner li.active {
+	background: #FAFAFA;
+}
+
+.side-menu a {
+	color: #646464;
+	text-decoration: none;
+}
+
+.box-launch-bar {
+	padding: 30px 47px;
+	height: 106px;
+	background: #FAFAFA;
+}
+
+.panel-content .large-icon{
+	display: block;
+	height: 275px;
+	margin: 70px auto;
+}
+
+.panel-title {
+	background: #ededed;
+	padding: 9px 22px;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.panel-content{
+	position:relative;
+}
+
+
+.modal .glyphicon, .popover-title .glyphicon {
+	margin-right: 9px;
+}
+
+.mce-popup .modal-dialog{
+	width: 90%;
+}
+
+.mce-popup iframe{
+	border:none;
+	height: 300px;
+	overflow-y: scroll;
+}
+
+.mce-popup {
+	display:none;
+}
+
+.mce-popup.in{
+	display:block;
+}
+
+.modal-dialog {
+	width: auto;
+}
+
+.modal-dialog.light .modal-content {
+	background-color: #ffffff;
+	opacity: 1.0;
+	color:#646464;
+}
+
+.modal-dialog.light .modal-header{
+	border-bottom: 1px solid #a5a5a5;
+}
+
+.light [class*=glyphicon]{
+	color:#444444;
+}
+
+.modal-content {
+	background-color: #444444;
+	opacity: 0.8;
+	color: white;
+	border-radius: 0px;
+}
+
+.modal-header {
+	padding: 10px 25px;
+}
+
+.modal-header .close{
+	color:white;
+	opacity:1;	
+	font-size:18px;
+}
+
+.modal-header .close:hover{
+	opacity:0.8;	
+}
+
+.modal-body{
+	padding:0;	
+}
+
+.modal-title {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.modal {
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.modal table {
+width: 100%;
+}
+
+.modal-body td {
+padding-left: 12px;
+}
+
+.modal-body .content-part {
+border-bottom: 1px solid #a5a5a5;
+padding: 17px;
+}
+
+.content-part .button-bar{
+padding: 23px 0px;
+}
+
+.btn {
+border-radius: 0px;
+font-size:14px;
+padding:9px 20px;
+}
+
+.btn.active,
+.btn:active{
+	box-shadow: none;
+}
+
+.btn-large{
+font-size: 14px;
+padding: 15px 44px;
+line-height: 1;
+}
+
+.btn-success{
+background-color: #FF9C00;
+border-color: #FF9C00;
+}
+
+.btn-success:hover{
+background-color: #E08600;
+border-color: #E08600;
+}
+
+.btn-success:active{
+background-color: #C47200;
+border-color: #C47200;
+}
+
+
+a[button-toggle]{
+display: inline-block;
+padding:9px 20px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: bold;
+line-height: 1.428571429;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+border: 1px solid transparent;
+border-radius: 0px;
+-webkit-user-select: none;	
+color:#444444;
+background-color:#e1e1e1;
+border-color: #CCCCCC;
+}
+
+a[button-toggle] .glyphicon{
+	color:#B3B3B3;
+	margin-right: 9px;
+}
+
+a[button-toggle]:hover{
+	text-decoration: none;
+}
+
+a[button-toggle].active{
+	color:#444444;
+	background-color:#FFFFFF;
+	border-color: #CCCCCC;	
+}
+
+a[button-toggle].active .glyphicon{
+	color:#444444;
+	margin-right: 9px;
+}
+
+.btn-info{
+	color:#444444;
+	background-color:#e1e1e1;
+	border-color: #CCCCCC;
+}
+
+
+
+.btn-info:active,
+.btn-info.active{
+	color:#444444;
+	background-color:#FFFFFF;
+	border-color: #CCCCCC;
+}
+
+.btn-info:active .glyphicon,
+.btn-info:hover .glyphicon,
+.btn-info.active .glyphicon{
+	color:#444444;
+}
+
+.btn-info:hover{
+	color:#444444;
+	background-color:#FFFFFF;
+	border-color: #CCCCCC;
+}
+
+
+/* MCE SPECIFIC */
+.top-menu.dropdown {
+display: inline-block;
+float: left;
+}
+
+.menu-toggle{
+    background-color: #333333;
+    width:55px;
+    height:55px;
+	padding: 17px 12px;
+}
+
+/**
+ * 	angular ui-bootstrap related
+ */
+.nav, .pagination, .carousel a { cursor: pointer; }
+
+.modal {
+display:block;
+}
+
+.mce-popup{
+	position: absolute;
+	top: 0;
+	width: 100%;	
+}
+
+.mce-popup .arrow,
+.mce-popup .second-arrow{
+	width: 0;
+	position: absolute;
+	left:64%;
+	height: 0;
+	border-left: 11px solid transparent;
+	border-right: 11px solid transparent;
+	border-bottom: 11px solid rgba(0, 0, 0, 0.2);
+}
+
+.mce-popup .second-arrow{
+	margin-top: 1px;
+	border-bottom: 11px solid white;
+	z-index: 2000;
+}
+
+img.spin{
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {        transform:rotate(0deg);    }
+    to {        transform:rotate(360deg);    }
+}	
+
+/***popover related stuff***/
+.popover {
+	/*display : block;*/
+	max-width : 400px;
+}
+.popover.bottom.bottom-left .arrow {
+	left: 90%;
+}
+
+.popover-title {
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 24px;
+	background-color: inherit;
+	padding: 10px 20px;
+}
+
+.popover-content {
+	padding: 10px 20px;
+}
+
+.device-info-popup .spin {
+	width: 55px;
+	display: block;
+	margin: auto;
+}
+
+table td, 
+table th{
+	padding-bottom: 1em;
+}
+
+table td{
+	padding-left: 12px;
+}

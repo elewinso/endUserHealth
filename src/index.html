@@ -1,0 +1,159 @@
+<!--(1024,768)-->
+<!doctype html>
+<html lang="en" ng-app="end-user-health">
+<head>
+  <meta charset="utf-8">
+  <title>end-user-health</title>
+
+  <link rel="stylesheet" href="css/common.css">
+  <link type="text/css" rel="stylesheet" media="all" href="https://d2p93rcsj9dwm5.cloudfront.net/static/website/css/page.css">  
+  <link rel="stylesheet" href="css/end-user-health.css">
+</head>
+<body>
+	<div class="wrap">
+        <div class="navbar header navbar-inverse">
+
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="/">
+                        <img src="//website-iridize.netdna-ssl.com/static/website/img/Logo-Iridize.png">
+                    </a>
+                    <div class="nav-collapse">
+
+                        <ul class="nav public-pages">
+
+
+
+                            <li id="create-menu-item">
+                                <a href="/account/">Create</a>
+                            </li>
+
+                            <li id="manage-menu-item">
+                                <a href="/account/manage/">Manage</a>
+                            </li>
+
+                            <li id="analytics-menu-item">
+                                <a href="/account/stats/">Analytics</a>
+                            </li>
+
+                            <li id="settings-menu-item">
+                                <a href="/account/settings/">Settings</a>
+                            </li>
+
+                            <li id="contact-us-menu-item">
+                                <a href="/support/">Contact Us</a>
+                            </li>
+                        </ul>
+
+                        <ul class="nav pull-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle">Clicktale</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> elewinso <b class="caret white"></b> </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="/account/profile/">User's Profile</a>
+                                    </li>
+                                    <li>
+                                        <a href="/account/logout/">Logout</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.nav-collapse -->
+                </div>
+            </div>
+            <!-- /navbar-inner -->
+        </div>
+        <div class="container">
+            <!--only make changes within this container-->
+            <div ng-controller="EndUserController">
+                identifier: {{endUser.end_user_id}}<br/>
+                You can create new controllers, services and directives using yoeman
+                <pre>
+                    yo ng-iridize:controller [name (omit the Contoller suffix)]
+                </pre>
+            </div>
+        </div>
+        <div class="push"></div>
+ </div> <!-- end of wrap -->
+ <div class="footer">
+<div class="container">
+            <div class="row">
+                <div class="span2">
+                    <ul class="unstyled">
+                        <li><a href="/why-iridize/">Why Iridize</a>
+                        </li>
+                        <li><a href="/testimonials/">Testimonials</a>
+                        </li>
+                        <li><a href="/pricing-and-plans/">Pricing</a>
+                        </li>
+                        <li><a href="/about-us/">About</a>
+                        </li>
+                        <li><a href="/contact/">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="span2">
+                    <ul class="unstyled">
+                        <li><a href="/api/">API</a>
+                        </li>
+                        <!--li><a href="/jobs/">Jobs (We're hiring)</a></li-->
+                        <li><a href="/partners/">Partners</a>
+                        </li>
+                        <li><a href="http://blog.iridize.com" target="_blank" title="Blog">Blog</a>
+                        </li>
+                        <li><a href="/tos/">Legal</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="span2">
+                    <ul class="unstyled">
+                        <li><a href="/microsoft-dynamics-crm-onboarding-optimization/">Dynamics CRM</a>
+                        </li>
+                        <li><a href="/magento-ecommerce-conversion-rate-optimization/">Magento</a>
+                        </li>
+                        <li><a href="/salesforce-onboarding-optimization/">Salesforce</a>
+                        </li>
+                        <li><a href="/sharepoint-onboarding-optimization/">Sharepoint</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="span2">
+                    <ul class="unstyled">
+                        <li><a href="/magento-ecommerce-conversion-rate-optimization/">E-commerce</a>
+                        </li>
+                        <li><a href="/mobile/">Mobile</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="span6 pull-right text-right social-icons">
+                    <span class="follow-us">Follow us on:</span>
+                    <a class="follow-gplus" href="https://plus.google.com/100579814029606869593" target="_blank" rel="publisher"></a>
+                    <a class="follow-youtube" href="http://www.youtube.com/channel/UCfJQaAdlEtiiFT59JUMV_mw" target="_blank"></a>
+                    <a class="follow-linkedin" href="https://www.linkedin.com/company/iridize-ltd-" target="_blank"></a>
+                    <a class="follow-facebook" href="https://www.facebook.com/Iridize" target="_blank"></a>
+                    <a class="follow-twitter" href="https://twitter.com/teamiridize/" target="_blank"></a>
+
+                </div>
+            </div>
+            <div class="row">
+                <!-- <div class="span3 pull-right text-right"><a href="http://www.matnasinteractive.com" target="_blank">UX | UI Matnas Interactive</div></a> -->
+                <div class="span6 pull-right text-right copyright">Copyright 2011-2013 Iridize Ltd.</div>
+            </div>
+        </div>  
+ </div>
+
+  <script src="common.js"></script>
+  <script src="end-user-health.js"></script>
+  
+</body>
+</html>
